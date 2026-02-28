@@ -33,7 +33,7 @@ The goal is to make CorridorKey's workflow accessible to people with 24 GB of VR
 
 ### 1. Clone this repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/CorridorKey-GUI.git
+git clone https://github.com/CodeBarrie/CorridorKey-GUI.git
 cd CorridorKey-GUI
 ```
 
@@ -137,4 +137,4 @@ Licensed under **CC BY-NC-SA 4.0** (matching CorridorKey's share-alike requireme
 
 ---
 
-Built by [FilmBarrie](https://github.com/FilmBarrie) with Claude Code.
+Built by [CodeBarrie](https://github.com/CodeBarrie) with Claude Code.
