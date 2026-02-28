@@ -72,6 +72,8 @@ Opens at `http://localhost:7860`. A public share link is also generated.
 
 ## Usage
 
+See **[WORKFLOW.md](WORKFLOW.md)** for the full step-by-step guide with settings reference, compositing tips, and troubleshooting.
+
 ### Quick Start (Full Pipeline)
 1. Go to **Hint Generator** tab
 2. Upload your green screen video
