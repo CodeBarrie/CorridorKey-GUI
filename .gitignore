@@ -1,0 +1,41 @@
+# Checkpoints & Model Weights
+checkpoints/
+CorridorKeyModule/checkpoints/
+CorridorKeyModule/IgnoredCheckpoints/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# MatAnyone sample data & non-essential dirs
+MatAnyone/.git/
+MatAnyone/inputs/
+MatAnyone/assets/
+MatAnyone/evaluation/
+MatAnyone/hugging_face/
+
+# Output & temp
+output/
+.gradio/
+__pycache__/
+*.pyc
+
+# Training data
+_Training Data/
+
+# Dev reports
+*_Report.md
+Auto_EXR_Ingest_Report.md
+MatAnyone_CorridorKey_Integration_Report.md
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Python env
+venv/
+.venv/
+*.egg-info/
