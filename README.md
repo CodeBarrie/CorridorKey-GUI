@@ -61,7 +61,7 @@ pip install -e ./MatAnyone
 | SAM ViT-B | ~358MB | `checkpoints/sam_vit_b.pth` |
 | MatAnyone | ~135MB | Auto-downloaded from HuggingFace on first run |
 
-- **CorridorKey weights:** Obtain from Niko Pueringer / Corridor Digital (not redistributed here)
+- **CorridorKey weights:** Obtain from [nikopueringer/CorridorKey](https://github.com/nikopueringer/CorridorKey) (not redistributed here)
 - **SAM weights:** Download `sam_vit_b_01ec64.pth` from [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything#model-checkpoints) and rename to `sam_vit_b.pth`
 
 ### 5. Launch
@@ -116,12 +116,15 @@ This project exists as a starting point for the community to build on. Key areas
 
 ## Credits & Licensing
 
+**This project is non-commercial.** Both CorridorKey and MatAnyone carry non-commercial licenses. Any derivatives must remain free and open source.
+
 ### CorridorKey
-Created by **Niko Pueringer** / **Corridor Digital**. The keying model architecture and weights are their work. See `CorridorKeyModule/README.md`.
+Created by **Niko Pueringer** / **Corridor Digital**. Licensed under **CC BY-NC-SA 4.0**.
+- Code: [github.com/nikopueringer/CorridorKey](https://github.com/nikopueringer/CorridorKey)
+- Commercial use requires agreement with contact@corridordigital.com
 
 ### MatAnyone
 By Peiqing Yang et al. (CVPR 2025). Licensed under **S-Lab License 1.0** (non-commercial use only).
-- Paper: [MatAnyone: Stable Video Matting with Consistent Memory Propagation](https://arxiv.org/abs/2501.xxxxx)
 - Code: [github.com/pq-yang/MatAnyone](https://github.com/pq-yang/MatAnyone)
 
 ### Segment Anything (SAM)
@@ -129,7 +132,7 @@ By Meta AI Research. Licensed under **Apache 2.0**.
 - Code: [github.com/facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)
 
 ### This GUI
-The GUI wrapper (`app.py`) is licensed under **MIT**. See `LICENSE`.
+Licensed under **CC BY-NC-SA 4.0** (matching CorridorKey's share-alike requirement). See `LICENSE`.
 
 ---
 
