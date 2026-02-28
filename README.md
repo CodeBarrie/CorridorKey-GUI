@@ -4,14 +4,13 @@ A Gradio web interface for **CorridorKey** — the neural network green screen k
 
 ## What This Does
 
-**The problem:** CorridorKey needs a coarse alpha hint mask for each frame. Manually painting masks for every frame of a video is impractical.
+CorridorKey requires a coarse alpha hint mask for every frame. This GUI plugs in a smaller, lower-VRAM segmentation model ([MatAnyone](https://github.com/pq-yang/MatAnyone)) to generate those hints automatically — click a few frames, and the rest is handled for you.
 
-**The solution:** This GUI chains three models together:
 1. **SAM** (Segment Anything) — Click on your subject to create a mask on any keyframe
-2. **MatAnyone** — Propagates that mask across the entire video with temporal consistency
+2. **MatAnyone** (~4-6 GB VRAM) — Propagates that mask across the entire video
 3. **CorridorKey** — Uses those propagated masks as hints to produce broadcast-quality alpha mattes and despilled foreground
 
-The result is a one-click pipeline from raw green screen video to keyed EXR sequences ready for compositing in Nuke, Fusion, or After Effects.
+The goal is to make CorridorKey's workflow accessible to people with 24 GB of VRAM (and eventually less) by keeping the hint generation stage lightweight.
 
 ## Features
 
